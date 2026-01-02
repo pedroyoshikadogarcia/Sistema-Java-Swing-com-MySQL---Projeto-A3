@@ -1,4 +1,4 @@
-📚 Sistema de Gestão de Estudos
+📚 Sistema de Gestão de Indicação de livros, podcasts, videos, entre outros.
 ---
 Este projeto é uma aplicação desktop desenvolvida em Java Swing com persistência de dados em MySQL, criada para o Projeto A3. O sistema funciona como um organizador pessoal de estudos, permitindo cadastrar e gerenciar indicações de livros, filmes, podcasts e vídeos educativos.
 
