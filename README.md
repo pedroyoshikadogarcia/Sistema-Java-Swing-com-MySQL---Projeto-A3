@@ -1,7 +1,9 @@
-Sistema Acadêmico - Projeto A3 (Java Swing & MySQL)
-Este projeto consiste em uma aplicação desktop desenvolvida em Java Swing com integração ao banco de dados MySQL. O sistema foi projetado para gerenciar registros de pessoas e contas, permitindo operações completas de CRUD (Criação, Leitura, Atualização e Exclusão) através de uma interface gráfica.
+📚 Sistema de Gestão de Estudos
 ---
+Este projeto é uma aplicação desktop desenvolvida em Java Swing com persistência de dados em MySQL, criada para o Projeto A3. O sistema funciona como um organizador pessoal de estudos, permitindo cadastrar e gerenciar indicações de livros, filmes, podcasts e vídeos educativos.
+
 🚀 Funcionalidades
+---
 Autenticação: Tela de login para acesso seguro ao sistema.
 
 Gestão de Pessoas: Cadastro de nome, telefone e e-mail com salvamento direto no banco de dados.
@@ -11,8 +13,10 @@ Visualização em Tempo Real: Listagem dinâmica dos dados cadastrados em compon
 Manipulação de Dados: Funções para editar e excluir registros existentes.
 
 Conexão Segura: Implementação do padrão ConnectionFactory para gerenciamento de sessões com o MySQL.
----
+
+
 🛠️ Tecnologias Utilizadas
+---
 Linguagem: Java 17.
 
 Interface Gráfica: Swing (JFrame).
@@ -22,8 +26,9 @@ Banco de Dados: MySQL 8.0.
 Dependências: Maven (mysql-connector-j).
 
 IDE: Netbeans.
----
+
 📋 Configuração do Banco de Dados
+---
 Para que o projeto funcione, você deve criar o banco de dados localmente. Utilize o script abaixo no seu MySQL Workbench:
 
 -- Criar o banco de dados
@@ -43,8 +48,9 @@ CREATE TABLE tb_conta (
     numero INT PRIMARY KEY,
     saldo DECIMAL(12, 2)
 );
----
+
 🔧 Como Rodar o Projeto
+---
 1. Clone o repositório:
 
 git clone https://github.com/pedroyoshikadogarcia/Sistema-Java-Swing-com-MySQL---Projeto-A3.git
